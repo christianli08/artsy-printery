@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #a7c5a9;
+    font-family: 'poppins',sans-serif;
 }
 
 #navbar {
@@ -41,20 +42,17 @@ body {
     display: block;
     margin: 0 auto;
     padding: 20px;
+    border-radius: 10px;
     
 }
 
-/* h1 {
-    text-align: center;
-    padding: 50px 0 10px 0;
-    margin: 0;
-    
-}
 
-h1 {
-    font-size: 3.5rem;
+h2 {
+    font-size: 3rem;
     color: #69523d;
-} */
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+} 
 
 #subtitle {
     text-align: center;
@@ -62,4 +60,9 @@ h1 {
     font-size: 1.25rem;
     color: #8D6E63;
     font-family: "poppins", sans-serif;
+    font-weight: 500;
+}
+
+#shop {
+    text-align: center;
 }
