@@ -3,6 +3,13 @@ html {
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Hangyaboly';
+    src: url('./Hangyaboly.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -30,6 +37,8 @@ body {
     padding: 30px;
     gap: 40px;
     align-items: center;
+    font-family: 'hangyaboly',sans-serif;
+    font-size: 25px;
 }
 
 #hero-section {
@@ -48,21 +57,33 @@ body {
 
 
 h2 {
-    font-size: 3rem;
+    font-size: 3.25rem;
     color: #69523d;
-    font-family: 'poppins', sans-serif;
-    font-weight: 500;
+    font-family: 'hangyaboly', sans-serif;
+    font-weight: 700;
+    text-align: center;
 } 
 
 #subtitle {
     text-align: center;
     padding-top: 0;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: #8D6E63;
-    font-family: "poppins", sans-serif;
+    font-family: "hangyaboly", sans-serif;
     font-weight: 500;
 }
 
-#shop {
-    text-align: center;
+
+
+#body-section {
+    padding: 50px;
+}
+
+.product-name {
+    font-size: 2rem;
+    font-family: 'hangyaboly', sans-serif;
+    font-weight: 500;
+    color: #69523d;
+    text-transform: uppercase;
+
 }
