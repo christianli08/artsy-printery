@@ -1,4 +1,57 @@
 html {
-    /* margin: 0; */
+    font-size: 16px;
     padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a7c5a9;
+}
+
+#navbar {
+    /* height: 80px;    */
+    padding: 8px;
+    /* background-color: aquamarine; */
+    display: flex;
+    background-color: #fab1a6;
+}
+
+#logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#nav-options {
+    display: flex;
+    padding: 30px;
+    gap: 40px;
+    align-items: center;
+}
+
+#hero-section {
+    height: 220px;
+    background-color: #faf5eb;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px 0 10px 0;
+    margin: 0;
+    
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #69523d;
+}
+
+#subtitle {
+    text-align: center;
+    padding-top: 0;
+    font-size: 1.25rem;
+    color: #8D6E63;
 }
