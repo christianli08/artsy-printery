@@ -69,7 +69,22 @@ h2 {
     font-family: 'hangyaboly', sans-serif;
     font-weight: 700;
     text-align: center;
+    padding-top: 80px;
 } 
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'hangyaboly', sans-serif;
+    color: #69523d;
+}
+
+p {
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.5;
+    color: #786350;
+}
 
 #subtitle {
     text-align: center;
@@ -162,6 +177,7 @@ h2 {
     width: 325px;
     height: 400px;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 .container .slider-scrollbar {
@@ -230,8 +246,18 @@ height: 4px;
 
 }
 
-/* #slide-1, #slide-2, #slide-3, #slide-4, #slide-5, #slide-6,
-#slide-7,#slide-8, #slide-9, #slide-10, #slide-11, #slide-12 {
+#about-section {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
     
-    width: 500px
-} */
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+}
+#about-section img {
+    width: 350px;
+    margin: 0   auto;
+}
