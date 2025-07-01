@@ -2,9 +2,14 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
     <title>The Artsy Printery</title>
+    <link rel="icon" href="favicon.jpg"
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" type="image/png">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -12,6 +17,7 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -37,18 +43,125 @@
 
     </div>
 
-    <!--SHOP-->
-    <div id="shop-section">
-    <h2 id=shop> SHOP</h2>
 
-    <div id="body-section">
+    <div id="shop-section">
+        <h2 id=shop> SHOP</h2>
+
+
         <div class="product-name">
             Magnetic Bookmarks
         </div>
 
-    </div>
+        <!--product images slider-->
+        <div class="container">
+            <div class="slider-wrapper">
+                <button id="prev-slide" class="slide-button material-symbols-outlined">
+                    chevron_left
+                </button>
+                <div class="image-list">
+                    <img class="image-item" src="https://i.imgur.com/eCYTEAt.jpeg" alt="all cat bookmark "
+                        referrerpolicy="no-referrer">
+                    <img class="image-item" src="https://i.imgur.com/Qb38LgB.jpeg" alt="3 cat bookmark"
+                        referrerpolicy="no-referrer">
+                    <img class="image-item" src="https://i.imgur.com/Q4CCp9b.jpeg" alt="cat orange bookmark"
+                        referrerpolicy="no-referrer">
+                    <img class="image-item" src="https://i.imgur.com/sOb7CjC.jpeg" alt="dachsaund bookmark"
+                        referrerpolicy="no-referrer">
+                    <img class="image-item" src="https://i.imgur.com/3lyZC6Q.jpeg"
+                        alt="horizontal fat orange cat book mark" referrerpolicy="no-referrer">
+
+                    <img class="image-item" src="https://i.imgur.com/Hqp4YtM.jpeg" alt="fat cat orange bookmark"
+                        referrerpolicy="no-referrer">
+                    <img class="image-item" src="https://i.imgur.com/HEGZsFf.jpeg" alt="5 cat bookmark"
+                        referrerpolicy="no-referrer">
+                    <img class="image-item" src="https://i.imgur.com/Hqp4YtM.jpeg" alt="cat bookmark on table"
+                        referrerpolicy="no-referrer">
+                    <img class="image-item" src="https://i.imgur.com/7nNoCQZ.jpeg" alt="two wide cat bookmarks"
+                        referrerpolicy="no-referrer">
+                    <img class="image-item" src="https://i.imgur.com/a6OtSMg.jpeg" alt="cat with shades"
+                        referrerpolicy="no-referrer">
+                    <img class="image-item" src="https://i.imgur.com/ximzrdU.jpeg" alt="cat with yarn"
+                        referrerpolicy="no-referrer">
+                    <img class="image-item" src="https://i.imgur.com/02enUbb.jpeg" alt="catnap bookmark"
+                        referrerpolicy="no-referrer">
+
+                </div>
+                <button id="next-slide" class="slide-button material-symbols-outlined">
+                    chevron_right
+                </button>
+            </div>
+            <div class="slider-scrollbar">
+                <div class="scrollbar-track">
+                    <div class="scrollbar-thumb"></div>
+                </div>
+            </div>
+        </div>
+        <!-- end of image slider -->
+
+
+        <!-- ref magents section -->
+        <div class="product-name">
+            Ref Magnets
+        </div>
+
+        <div class="container">
+            <div class="slider-wrapper">
+
+                <div class="image-list">
+                    <img class="image-item" src="https://i.imgur.com/2asdBj1.jpeg" alt="certified yapper "
+                        referrerpolicy="no-referrer">
+                    <img class="image-item" src="https://i.imgur.com/I7x2e7C.jpeg" alt="certified yapper in hand"
+                        referrerpolicy="no-referrer">
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- instax section -->
+        <div class="product-name">
+            Instax Prints
+        </div>
+
+        <div class="container">
+            <div class="slider-wrapper">
+
+                <div class="image-list">
+                    <img class="image-item" src="https://i.imgur.com/oW2Geu8.jpeg" alt="my cats "
+                        referrerpolicy="no-referrer">
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- about section  -->
+        <div id="about-section">
+            <h2 id=shop> ABOUT</h2>
+
+            <div id="about">
+                <img src="https://i.imgur.com/LmkPC2a.jpeg" alt="insert image here" referrerpolicy="no-referrer">
+                <h3>THE ARTIST</h3>
+                <p>Hey there! I’m an architect from the Philippines who’s totally obsessed with pets and all things
+                    handmade. I’ve wanted to start a small business like this for the longest time—only now did I
+                    finally find the courage to go for it. This little shop is where I get to mix my love for crafts
+                    with my silly, cutesy pet designs. Every sticker’s made by hand and with lots of love. Thanks so
+                    much for supporting my small biz—it truly means the world! 💗</p>
+            </div>
+
+
+
+
+        </div>
 
     </div>
+
+
 
 
 
