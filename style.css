@@ -89,7 +89,7 @@ p {
 #subtitle {
     text-align: center;
     padding-bottom: 20px;
-    font-size: 1.25rem;
+    font-size: .75rem;
     color: #8D6E63;
     font-family: "hangyaboly", sans-serif;
     font-weight: 500;
@@ -242,6 +242,8 @@ height: 4px;
     .slider-scrollbar .scrollbar-thumb {
         width: 20%;
     }
+
+   
 
 
 }
