@@ -323,8 +323,8 @@ height: 4px;
 }
 
 .artist-image { 
-    width: 350px;
-    height: 470px;
+    width: 450px;
+    /* height: 470px; */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
